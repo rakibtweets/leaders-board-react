@@ -1,0 +1,31 @@
+.header {
+  background-color: #562eff;
+  padding: 0.5em 1em;
+}
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.nav__list a {
+  padding-right: 2em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+.logo__name {
+  display: inline;
+  color: white;
+  font-weight: bold;
+}
+.brand__logo {
+  width: 4em;
+}

@@ -1,0 +1,8 @@
+.single__player {
+  display: flex;
+  gap: 1em 0.7em;
+  align-items: center;
+}
+.player__img img {
+  border-radius: 50%;
+}

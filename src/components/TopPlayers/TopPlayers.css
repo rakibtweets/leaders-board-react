@@ -1,0 +1,14 @@
+.container {
+  width: 90%;
+  border: 2px solid green;
+  margin: 2em auto;
+  padding: 15px;
+}
+.heading {
+  color: #562eff;
+}
+.player__single {
+  display: grid;
+  gap: 1em 0;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SinglePlayer from '../SinglePlayer/SinglePlayer';
+import TopBlogs from '../TopBlogs/TopBlogs';
+
 import './TopPlayers.css';
 
 const TopPlayers = () => {
@@ -19,6 +21,7 @@ const TopPlayers = () => {
           <SinglePlayer key={player.id.value} player={player} />
         ))}
       </div>
+      <TopBlogs />
     </div>
   );
 };

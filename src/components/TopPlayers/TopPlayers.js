@@ -13,7 +13,7 @@ const TopPlayers = () => {
   }, []);
   return (
     <div className="container">
-      <div className="top__players">
+      <div className="top__players mb-3">
         <h1 className="heading">Top Players</h1>
       </div>
       <div className="player__single">
